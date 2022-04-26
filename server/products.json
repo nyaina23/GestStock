@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Crayon"
+  },
+  {
+    "id": 2,
+    "name": "Bic noir"
+  },
+  {
+    "id": 3,
+    "name": "Bic rouge"
+  },
+  {
+    "id": 4,
+    "name": "Bic vert"
+  },
+  {
+    "id": 5,
+    "name": "Bic bleu"
+  },
+  {
+    "id": 6,
+    "name": "Gomme"
+  }
+]

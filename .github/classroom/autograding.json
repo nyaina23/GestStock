@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "POST /reset",
+      "setup": "cd server && npm install",
+      "run": "cd server && npm test -- post_reset",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "GET /inventory",
+      "setup": "cd server && npm install",
+      "run": "cd server && npm test -- get_inventory",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "GET /products",
+      "setup": "cd server && npm install",
+      "run": "cd server && npm test -- get_products",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "POST /moves (basic)",
+      "setup": "cd server && npm install",
+      "run": "cd server && npm test -- post_moves_basic",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "POST /moves (extra)",
+      "setup": "cd server && npm install",
+      "run": "cd server && npm test -- post_moves_extra",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "GET /moves",
+      "setup": "cd server && npm install",
+      "run": "cd server && npm test -- get_moves",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}

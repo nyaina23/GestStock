@@ -1,0 +1,57 @@
+GET http://localhost:4000/products
+Accept: application/json
+
+###
+
+GET http://localhost:4000/inventory
+Accept: application/json
+
+###
+
+POST http://localhost:4000/moves
+Accept: application/json
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "quantity": 10,
+  "direction": "in"
+}
+
+###
+
+POST http://localhost:4000/moves
+Accept: application/json
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "quantity": 6,
+  "direction": "out"
+}
+
+###
+
+POST http://localhost:4000/moves
+Accept: application/json
+Content-Type: application/json
+
+{
+  "productId": "abc",
+  "quantity": "def",
+  "direction": "other"
+}
+
+###
+
+GET http://localhost:4000/moves
+Accept: application/json
+
+###
+
+GET http://localhost:4000/moves/123
+Accept: application/json
+
+###
+
+GET http://localhost:4000/moves/31ca3017-f8bd-47cc-9439-9c3f0eee8c8d
